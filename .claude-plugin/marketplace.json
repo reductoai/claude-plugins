@@ -1,0 +1,24 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "reducto-plugins",
+  "description": "Official Reducto plugins for Claude Code - document parsing, data extraction, and document editing tools",
+  "owner": {
+    "name": "Reducto",
+    "email": "support@reducto.ai"
+  },
+  "plugins": [
+    {
+      "name": "reducto-cli",
+      "description": "Parse, extract, and edit documents using Reducto's AI-powered document processing platform. Supports PDFs, images, Office documents, and spreadsheets.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Reducto",
+        "email": "support@reducto.ai"
+      },
+      "source": "./plugins/reducto-cli",
+      "category": "development",
+      "homepage": "https://reducto.ai",
+      "tags": ["document-processing", "pdf", "ocr", "data-extraction"]
+    }
+  ]
+}

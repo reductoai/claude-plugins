@@ -1,0 +1,9 @@
+{
+  "name": "reducto-cli",
+  "description": "Parse, extract, and edit documents using Reducto's AI-powered document processing platform. Supports PDFs, images, Office documents, and spreadsheets.",
+  "author": {
+    "name": "Reducto",
+    "email": "support@reducto.ai"
+  },
+  "postInstall": "hooks/post-install.sh"
+}

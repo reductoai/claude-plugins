@@ -4,6 +4,5 @@
   "author": {
     "name": "Reducto",
     "email": "support@reducto.ai"
-  },
-  "postInstall": "hooks/post-install.sh"
+  }
 }

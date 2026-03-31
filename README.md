@@ -6,6 +6,14 @@ Reducto turns unstructured documents into structured, LLM-ready data using agent
 
 ## Installation
 
+### Via Vercel Skills CLI (recommended)
+
+```bash
+npx skills add reductoai/claude-plugins
+```
+
+### Via Claude Code Plugin System
+
 Add this marketplace to Claude Code:
 
 ```

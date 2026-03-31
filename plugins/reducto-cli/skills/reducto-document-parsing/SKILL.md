@@ -2,6 +2,16 @@
 name: reducto-document-parsing
 description: This skill should be used when the user asks to "parse a document", "extract data from PDF", "process invoices", "convert PDF to markdown", "extract structured data", "edit a document", mentions "reducto", or discusses document processing, OCR, PDF parsing, invoice extraction, form filling, or data extraction from files.
 version: 1.0.0
+metadata:
+  author: reducto
+  homepage: https://reducto.ai
+  tags:
+    - document-processing
+    - pdf
+    - ocr
+    - data-extraction
+    - invoice
+    - form-filling
 ---
 
 # Reducto CLI - Document Processing

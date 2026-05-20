@@ -1,8 +1,16 @@
 # Reducto Claude Code Plugins
 
-Parse, extract, and edit PDFs, images, spreadsheets, and Office documents directly inside [Claude Code](https://claude.ai) — powered by [Reducto's](https://reducto.ai) document intelligence API.
+**Document work starts here.** Parse, extract, classify, and edit PDFs, images, spreadsheets, and Office documents directly inside [Claude Code](https://claude.ai) — powered by [Reducto](https://reducto.ai), the agentic document platform.
 
-Reducto turns unstructured documents into structured, LLM-ready data using agentic OCR and vision-language models. This plugin brings those capabilities into your Claude Code workflow so you can process invoices, contracts, medical records, financial filings, and more without leaving your terminal.
+Reducto is the complete agentic document platform for AI teams that need enterprise performance at scale. It provides a comprehensive toolkit for working with documents the way a human would, orchestrating custom in-house and frontier models to power accurate, efficient document workflows. This plugin brings those capabilities into your Claude Code workflow — so you and your agents can process invoices, contracts, medical records, financial filings, and more without leaving your terminal.
+
+Trusted by leading AI teams at Harvey, Scale AI, Vanta, and others.
+
+## Why Reducto
+
+- **Performance for your workload** — zero-shot accuracy on complex documents, balanced against latency and throughput for your use case. A dozen+ models orchestrated under the hood, continuously updated so you don't have to chase the frontier. Handles long-tail complexity (tables, charts, figures, handwriting, scans) without breaking.
+- **Enterprise-ready** — deployable hosted, in your VPC, on-premises, or fully air-gapped. SOC 2 Type II and HIPAA compliant with zero data retention by default. Autoscaling, custom SLAs, and white-glove FDE support for production workloads.
+- **Complete toolkit** — one platform for every document task: parse, classify, split, extract, and edit. Covers 30+ file types — not just PDFs — with agent-ready tooling (CLI, MCP, plugins) and workflows for triggers, human-in-the-loop, and scale.
 
 ## Installation
 
@@ -142,7 +150,7 @@ Output files are written as `<filename>.edited.<ext>`.
 | Presentations | `.ppt`, `.pptx` |
 | Spreadsheets | `.xls`, `.xlsx` |
 
-Reducto handles scanned documents, faxes, and handwritten content through its OCR engine, and supports 100+ languages including mixed-language documents.
+Reducto handles scanned documents, faxes, and handwritten content through its agentic OCR pipeline, and supports a wide range of languages including mixed-language and non-Latin-script documents.
 
 ## Use Cases
 
@@ -189,7 +197,7 @@ Extract patient info, diagnoses, and treatment plans from medical documents usin
 Parse claim forms and supporting documents, then extract policy numbers, incident details, and damage assessments into structured data.
 
 ### Multi-Language Document Processing
-Process documents in 100+ languages — Reducto handles mixed-language content and non-Latin scripts through its vision-language models.
+Process documents across a wide range of languages — Reducto handles mixed-language content and non-Latin scripts through its vision-language models.
 
 ## Requirements
 
@@ -199,7 +207,7 @@ Process documents in 100+ languages — Reducto handles mixed-language content a
 
 ## Resources
 
-- [Reducto Website](https://reducto.ai) — platform overview and pricing
+- [Reducto Website](https://reducto.ai) — agentic document platform overview
 - [Documentation](https://docs.reducto.ai) — full API reference, guides, and cookbooks
 - [Studio](https://studio.reducto.ai) — web dashboard and interactive playground
 - [GitHub](https://github.com/reductoai) — SDKs, examples, and open-source tools
